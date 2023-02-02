@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Container */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.gradientHeader__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px 0;
+}
+
+.header__logo img{
+    max-width: 50px;
+    max-height: auto;
+}
+
+.header__text {
+
+    font-weight: 700;
+    color: blueviolet;
+    font-size: 40px;
+}
+
+/* Main */
+
+/* Gradient Block */
+.gradientBlock {
+    background-image: url(../images/back.png);
+}
+
+.gradientBlock__inner {
+    height: 300px;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,0,223,1) 100%, rgba(60,180,98,1) 100%);
+
+    margin-bottom: 20px;
+}
+
+/* Gradient options*/
+.gradioentOptions__inner {
+    border: 1px solid #CACECF;
+    padding: 20px 20px;
+    border-radius: 15px;
+
+    margin-bottom: 20px;
+
+    background-color: #CFD3FF;
+}
+
+/* Buttons */
+.gradient__type {
+    display: flex;
+}
+
+.type_button {
+    background-color: blueviolet;
+    color: rgb(216, 216, 216);
+    text-align: center;
+    border: 1px solid #CACECF;
+    border-radius: 15px;
+
+    font-size: 30px;
+    padding: 10px 0px;
+    width: 110px;
+
+    transition: background 0.2s linear;
+}
+
+.type_button:hover {
+    cursor: pointer;
+    background-color: rgb(107, 33, 176);
+}
+
+.selected {
+    background-color: rgb(78, 23, 130);
+    color: white;
+}
+
+/* Colors */
+.gradient__colors {
+margin-top: 20px;
+}
+
+.color_block {
+    display: flex;
+    align-items: center;
+}
+
+.color__text {
+    font-size: 30px;
+    margin-right: 20px;
+    color: blueviolet;
+
+    width: 155px;
+}
+
+.color_start, .color_end {
+    width: 980px;
+    height: 40px;
+}
+
+/* Opacity */
+.gradient__opacity {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.gradient__opacity__text {
+    font-size: 30px;
+    margin-right: 20px;
+    color: blueviolet;
+
+    width: 155px;
+}
+
+.opacity {
+    width: 980px;  
+}
+
+/* Angle */
+.gradient__deg {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.gradient__deg__text {
+    font-size: 30px;
+    margin-right: 20px;
+    color: blueviolet;
+
+    width: 155px;
+}
+
+.deg {
+    width: 980px;
+}
+
+/* CSS Code area*/
+.gradient__css__inner {
+    border: 1px solid #CACECF;
+    border-radius: 15px;
+
+    padding: 6px 20px;
+    font-size: 20px;
+
+    background-color: black;
+
+}
+
+#cssCode {
+    height: 100px;
+    width: 1160px;
+
+    resize: none;
+    background-color: #0B0D4D;
+    color: #00FFF2;
+    border: none;
+
+    font-size: 20px;
+    padding: 20px 20px;
+
+    border-radius: 0 15px 15px 15px;
+}
+
+.css__title {
+    background-color: #0B0D4D;
+    color: white;
+
+    border-radius:15px 15px 0 0; 
+
+    width: 200px;
+    height: 40px;
+
+    text-align: center;
+    padding: 10px;
+}
+
+.buttonCopy__css {
+    background-color: rgb(58, 72, 111);
+    margin: 0;
+
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+
+    font-weight: 700;
+    color: white;
+
+    cursor: pointer;
+
+    border-radius:15px;
+
+    transition: background 0.2s linear;
+}
+
+.buttonCopy__css:hover {
+    background-color: rgb(42, 52, 80);
+}
+
+

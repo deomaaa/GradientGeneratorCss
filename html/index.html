@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/GradientGenerateStyleCSS.css">
+</head>
+<body>
+    <div class="gradientHeader">
+        <div class="container">
+            <div class="gradientHeader__inner">
+                <div class="header__logo">
+                    <img src="../images/gradient-orbs9.jpg">
+                </div>
+                <div class="header__text">Gradient Generator</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="garadientMain">
+        <div class="gradientBlock">
+            <div class="gradientBlock__inner"></div>
+        </div>
+    
+        <div class="gradioentOptions">
+            <div class="container">
+                <div class="gradioentOptions__inner">
+                    <form>
+                        <div class="gradient__type">
+                            <div class="type_button selected">linear</div>
+                            <div class="type_button">radial</div>
+                        </div>
+
+                        <div class="gradient__colors">
+                            <div class="color_block">
+                                <div class="color__text">Color Start:</div>
+                                <input type="color" class="color_start" value="#FF00FB">
+                            </div>
+                            <div class="color_block">
+                                <div class="color__text">Color End:</div>
+                                <input type="color" class="color_end" value="#FF0000">
+                            </div>
+                        </div>
+
+                        <div class="gradient__opacity">
+                            <div class="gradient__opacity__text">Opacity:</div>
+                            <input type="range" min="0" max="1" step="0.01" class="opacity">
+                        </div>
+
+                        <div class="gradient__deg">
+                            <div class="gradient__deg__text">Angel:</div>
+                            <input type="range" min="0" max="360" step="1" class="deg">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gradient__css">
+        <div class="container">
+            <div class="gradient__css__inner">
+                <div class="css__title">CSS Code</div>
+                <textarea id="cssCode" readonly></textarea>
+                <div class="buttonCopy__css">Copy to Clipboard</div>
+            </div>
+        </div>
+    </div>
+    
+    <script defer src="../js/script.js"></script>
+</body>
+</html>
